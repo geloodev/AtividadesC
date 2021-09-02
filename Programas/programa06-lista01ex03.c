@@ -4,10 +4,10 @@ int main(){
 
 	float valor;
 
-	printf("Informe um número: \n");
+	printf("Informe um nÃºmero: \n");
 	scanf("%f", &valor);
 
-	printf("A quinta parte de %.2f é %.2f! \n", valor, valor/5);
+	printf("A quinta parte de %.2f Ã© %.2f! \n", valor, valor/5);
 
 	return 0;
 

@@ -21,7 +21,6 @@
 				"isDefault": true,
 				"kind": "build"
 			}
-			"detail":"compiler: /usr/bin/gcc"
 		}
 	]
 }

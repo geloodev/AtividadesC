@@ -6,16 +6,16 @@ int main(){
 	int valor02;
 	int valor03;
 
-	printf("Informe o primeiro número: ");
+	printf("Informe o primeiro nÃºmero: ");
 	scanf("%d", &valor01);
 
-	printf("Informe o segundo número: ");
+	printf("Informe o segundo nÃºmero: ");
 	scanf("%d", &valor02);
 
-	printf("Informe o terceiro número: ");
+	printf("Informe o terceiro nÃºmero: ");
 	scanf("%d", &valor03);
 
-	printf("A soma destes três números é %d!", valor01 + valor02 + valor03);
+	printf("A soma destes trÃªs nÃºmeros Ã© %d!\n", valor01 + valor02 + valor03);
 
 	return 0;
 

@@ -1,4 +1,4 @@
-// 1. Faça um programa que receba um número inteiro e verifique se este número é par ou impar.
+// 1. FaÃ§a um programa que receba um nÃºmero inteiro e verifique se este nÃºmero Ã© par ou impar.
 
 #include <stdio.h>
 
@@ -7,13 +7,13 @@ int main() {
 	int x;
 	setbuf(stdout, NULL);
 
-	printf("Digite um número inteiro qualquer: ");
+	printf("Digite um nÃºmero inteiro qualquer: ");
 	scanf("%d", &x);
 
-	if (x % 2 == 0) { // o operador % verifica se um numero é divisivel por 2 com resto 0
-		printf("%d é um número par!", x);
+	if (x % 2 == 0) { // o operador % verifica se um numero Ã© divisivel por 2 com resto 0
+		printf("%d Ã© um nÃºmero par! \n", x);
 	} else {
-		printf("%d é um número ímpar!", x);
+		printf("%d Ã© um nÃºmero Ã­mpar! \n", x);
 	}
 
 	return 0;

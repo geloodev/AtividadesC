@@ -1,10 +1,10 @@
-//ler um valor de um comprimento em polegadas e apresentá-lo convertido em centímetros
+//ler um valor de um comprimento em polegadas e apresentÃ¡-lo convertido em centÃ­metros
 
 #include <stdio.h>
 
 int main(){
 
-	//declarar as variáveis
+	//declarar as variÃ¡veis
 	//float valorPolegadas, valorCentimetros;
 
 	float valorPolegadas;
@@ -16,8 +16,8 @@ int main(){
 	//processamento
 	//valorCentimetros = valorPolegadas * 2.54;
 
-	//saída
-	printf("%.2f polegadas equivalem a %.2f centímetros.", valorPolegadas, valorPolegadas * 2.54);
+	//saÃ­da
+	printf("%.2f polegadas equivalem a %.2f centï¿½metros.", valorPolegadas, valorPolegadas * 2.54);
 
 	return 0;
 

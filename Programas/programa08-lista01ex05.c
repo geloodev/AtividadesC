@@ -9,7 +9,7 @@ int main(){
 
 	temperaturaC = 5 * (temperaturaF - 32)/9;
 
-	printf("%.2fº Fahrenheit equivalem a %.2fº Celsius!", temperaturaF, temperaturaC);
+	printf("%.2fÂº Fahrenheit equivalem a %.2fÂº Celsius!", temperaturaF, temperaturaC);
 
 	return 0;
 

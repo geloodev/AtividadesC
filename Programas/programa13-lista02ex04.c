@@ -1,6 +1,6 @@
-//4. Faça um programa que leia 2 notas de um aluno, verifique se as notas são validas e exiba na tela a média destas notas.
-//Uma nota válida deve ser, obrigatoriamente, um valor entre 0.0 e 10.0.
-//Caso a nota não posua um valor válido, este fato deve ser informado ao usuário e o programa termina.
+//4. FaÃ§a um programa que leia 2 notas de um aluno, verifique se as notas sÃ£o validas e exiba na tela a mÃ©dia destas notas.
+//Uma nota vÃ¡lida deve ser, obrigatoriamente, um valor entre 0.0 e 10.0.
+//Caso a nota nÃ£o posua um valor vÃ¡lido, este fato deve ser informado ao usuÃ¡rio e o programa termina.
 
 #include <stdio.h>
 
@@ -9,11 +9,11 @@ int main() {
 	float nota1, nota2, media;
 	setbuf(stdout, NULL);
 
-	printf("=====CALCULADORA DE MÉDIA===== \n\n");
-	printf("Informe sua 1ª nota: ");
+	printf("=====CALCULADORA DE MÃ‰DIA===== \n\n");
+	printf("Informe sua 1Âª nota: ");
 	scanf("%f", &nota1);
 
-	printf("Informe sua 2ª nota: ");
+	printf("Informe sua 2Âª nota: ");
 	scanf("%f", &nota2);
 
 	media = (nota1 + nota2) / 2;
@@ -22,13 +22,13 @@ int main() {
 	// || = ou
 	// && = e
 	if ((nota1 < 0 || nota1 > 10) && (nota2 < 0 || nota2 > 10)){
-		printf("As duas notas são inválidas.");
+		printf("As duas notas sÃ£o invÃ¡lidas.");
 	} else if (nota1 < 0 || nota1 > 10) {
-		printf("A primeira nota é inválida. \n");
+		printf("A primeira nota Ã© invÃ¡lida. \n");
 	} else if (nota2 < 0 || nota2 > 10) {
-		printf("A segunda nota é inválida. \n");
+		printf("A segunda nota Ã© invÃ¡lida. \n");
 	} else {
-		printf("Sua média é: %.1f", media);
+		printf("Sua mÃ©dia Ã©: %.1f", media);
 	}
 
 	printf("\n==============================");

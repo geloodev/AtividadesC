@@ -1,24 +1,24 @@
-// Aula sobre variáveis
+// Aula sobre variÃ¡veis
 
 #include <stdio.h>
 
-int main() { // chave que delimita um  bloco de código (início do bloco)
+int main() { // chave que delimita um  bloco de cÃ³digo (inÃ­cio do bloco)
 
-	//declarar uma variável
-	int idade; //int é inteiro
+	//declarar uma variavel
+	int idade; //int Ã© inteiro
 
-	//declarar e inicializar variável
+	//declarar e inicializar variavel
 	//int idade = 0;
 
-	// printf é função para escrever algo na saída padrão (console)
+	// printf Ã© funÃ§Ã£o para escrever algo na saida padrÃ£o (console)
 	printf("Qual a sua idade?"); //terminando um comando
 
 	fflush(stdout);
 
-	//função para receber os dados
+	//funÃ§Ã£o para receber os dados
 	scanf("%d", &idade);
 
-	printf("A sua idade é %d", idade);
+	printf("A sua idade Ã© %d", idade);
 	fflush(stdout);
 
 	return 0;

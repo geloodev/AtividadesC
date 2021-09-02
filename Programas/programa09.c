@@ -9,14 +9,14 @@ int main() {
 	scanf("%d0", &idade);
 
 	if (idade < 18) {
-		printf("Você é menor de idade! \n");
+		printf("VocÃª Ã© menor de idade! \n");
 	} else if (idade >= 18 && idade < 60) {
-		printf("Você é maior de idade e adulto! \n");
+		printf("VocÃª Ã© maior de idade e adulto! \n");
 	} else {
-		printf("Você é maior de idade e idoso! \n");
+		printf("VocÃª Ã© maior de idade e idoso! \n");
 	}
 
-	printf("A sua idade é %d anos.", idade);
+	printf("A sua idade Ã© %d anos.\n", idade);
 
 	return 0;
 

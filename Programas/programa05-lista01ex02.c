@@ -4,10 +4,10 @@ int main(){
 
 	float valor;
 
-	printf("Informe um número: \n");
+	printf("Informe um nÃºmero: ");
 	scanf("%f", &valor);
 
-	printf("O quadrado de %.2f é %.2f! \n", valor, valor * valor);
+	printf("\nO quadrado de %.2f Ã© %.2f! \n", valor, valor * valor);
 
 	return 0;
 
