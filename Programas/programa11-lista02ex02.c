@@ -1,4 +1,4 @@
-//2. Faça um programa que receba dois números e mostre qual deles é o maior.
+//2. Faï¿½a um programa que receba dois nï¿½meros e mostre qual deles ï¿½ o maior.
 
 #include <stdio.h>
 
@@ -7,18 +7,18 @@ int main() {
 	int a, b;
 	setbuf(stdout, NULL);
 
-	printf("Insira o primeiro número: ");
+	printf("Insira o primeiro nï¿½mero: ");
 	scanf("%d", &a);
 
-	printf("Insira o segundo número: ");
+	printf("Insira o segundo nï¿½mero: ");
 	scanf("%d", &b);
 
 	if (a > b) {
-		printf("%d é maior que %d!", a, b);
+		printf("%d ï¿½ maior que %d!", a, b);
 	} else if (a < b) {
-		printf("%d é maior que %d!", b, a);
+		printf("%d ï¿½ maior que %d!", b, a);
 	} else {
-		printf("%d e %d são iguais!", a, b);
+		printf("%d e %d sï¿½o iguais!", a, b);
 	}
 	return 0;
 
