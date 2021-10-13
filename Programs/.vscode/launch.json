@@ -9,7 +9,7 @@
       "stopAtEntry": false,
       "cwd": "/home/gabriel/Code Projets/C/ProgramasC/Programas",
       "environment": [],
-      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "program": "${fileDirname}/bin/${fileBasenameNoExtension}",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
       "miDebuggerPath": "/usr/bin/gdb",
