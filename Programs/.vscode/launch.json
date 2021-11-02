@@ -7,7 +7,7 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "cwd": "/home/gabriel/Code Projets/C/ProgramasC/Programas",
+      "cwd": "/home/gabriel/Code Projets/C/ProgramasC/Programs",
       "environment": [],
       "program": "${fileDirname}/bin/${fileBasenameNoExtension}",
       "internalConsoleOptions": "openOnSessionStart",
