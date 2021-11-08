@@ -3,21 +3,23 @@
 
 int main(){
 
-    char lista[10][31];
-    int i;
+    char nome[11], sobrenome[11], nomeCompleto[22];
 
-    for(i = 0; i < 10; i++){
-        printf("Nome %d: ", i+1);
-        printf("\n");
-        setbuf(stdin, NULL);
-        scanf("%30[^\n]", lista[i]);
-    }
+    printf("Digite seu nome: ");
+    setbuf(stdin, NULL);
+    scanf("%10[^\n]", nome);
 
-    printf("Todas as listas")
-    for(int i = 0; i< 10; i++){
-        printf("Nome 1: ")
-    }
+    printf("Digite seu sobrenome: ");
+    setbuf(stdin, NULL);
+    scanf("%10[^\n]", sobrenome);
+    
+    strcpy(nomeCompleto, nome);
+    
+    //função para concatenar strings
+    strcat(nomeCompleto, " "); //nomeCompleto = nomeCompleto + " "
+    strcat(nomeCompleto, sobrenome); //nomeCompleto = nomeCompleto + sobrenome
 
+    printf("Nome Completo: %s \n\n", nomeCompleto);
 
     return 0;
 }
