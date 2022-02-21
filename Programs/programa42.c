@@ -24,7 +24,7 @@ int main(){
 
     do{
         //menu
-        system("clear"); //clear output screen
+        // system("clear"); //clear output screen
         printf("=============== MENU DE OPÇÕES ===============\n");
         printf("1 - Cadastrar um novo funcionário\n");
         printf("2 - Listar todos os funcionários cadastrados\n");
